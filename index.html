@@ -4,14 +4,15 @@
 <head>
     <title>Jack's Hardware Paint Selection</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="newPaint.js"></script>
 </head>
 
-<body onload='configureListeners()'>
+<body onload='hoverOverImages()'>
     <h1 id="paint-info">Jack's Hardware Paint Selections</h1>
 
     <div class="floatLeft">
         <div>
-            <img id="pn1" src="./assets/colors/lime-green.jpeg" height="250" width="270" alt="Lime green paint" />
+            <img id="pn1" src="./assets/colors/lime-green.jpeg" height="250" width="270" alt="Lime green paint"/>
             <img id="pn2" src="./assets/colors/medium-brown.jpeg" height="250" width="270" alt="Brown paint" />
             <img id="pn3" src="./assets/colors/royal-blue.jpeg" height="250" width="270" alt="Royal blue paint" />
         </div>
@@ -33,7 +34,5 @@
         <h1 id="color"></h1>                       
         <h1 class="price" id="ppg"></h1>
     </div>    
-
-    <script src="./assets/js/paint.js"></script>
 </body>
 </html>
