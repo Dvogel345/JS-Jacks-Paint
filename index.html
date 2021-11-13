@@ -7,7 +7,7 @@
     <script src="newPaint.js"></script>
 </head>
 
-<body onload='hoverOverImages()'>
+<body onload='configListeners()'>
     <h1 id="paint-info">Jack's Hardware Paint Selections</h1>
 
     <div class="floatLeft">
@@ -30,9 +30,9 @@
         </div>
     </div>     
   
-    <div class="floatRight">        
+    <div class="floatRight" id="imgDisplay">        
         <h1 id="color"></h1>                       
-        <h1 class="price" id="ppg"></h1>
+        <h1 class="price" id="name"></h1>
     </div>    
 </body>
 </html>

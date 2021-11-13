@@ -1,5 +1,8 @@
- 
- .dim{
+body {
+  background: rgb(219, 219, 219);
+}
+
+.dim{
     opacity: 0.1555;
   }
 
@@ -26,7 +29,7 @@
     font: 140px Arial, sans-serif; 
   }
 
-  .ppgLabel{
+  .nameLabel{
     font: 50px Arial, sans-serif; 
   }
 
